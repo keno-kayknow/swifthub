@@ -1,0 +1,108 @@
+@media only screen and (max-width: 750px){
+    body{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+       
+    }
+
+    .container-wrap{
+        overflow: hidden;
+        
+       
+        
+        
+    }
+    .menu{
+        display: flex;
+    }
+
+    .menulinks{
+        display: none;
+    }
+
+    .drpbtn{
+       /* color: #ffffff;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #4caf50;*/
+        background-color: #4caf50;
+        padding: 10px;
+        box-shadow: 2px 6px 2px #333333;
+    
+    }
+
+    .line1{
+        padding: 1px 10px;
+        background-color: rgb(82, 78, 78);
+        margin-bottom: 1px;
+        border: 0.5px solid #ffffff;
+        border-radius: 2px;
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content{
+        position: absolute;
+        display: none;
+        background-color: coral;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+
+    }
+
+    .dropdown-content a{
+        color: #ffffff;
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+        
+    }
+
+    .dropdown-content a:hover{
+        background-color: #000000;
+    }
+
+
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+
+    .banner{
+        text-align: center;
+        text-shadow: 0px 1px 1px #333333;
+        padding: 150px;
+        background: url(./img/10trucks.jpg ) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin-top: 15px;
+        
+
+    }
+    
+    .flex{
+        display: block;
+        width: 95%;
+        margin: auto;
+    }
+    .flex >div{
+        margin-bottom: 3px;
+    }
+
+    .grid{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+    }
+
+  
+}

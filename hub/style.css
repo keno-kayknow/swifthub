@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topheader{
+    background-color: #088EDD;
+    padding: 5px 0px;
+
+}
+.header{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9f9f9;
+    color: #333333;
+    line-height: 1.4;
+    padding: 15px 0px;
+    font-size: 14px;
+}
+
+.phone h4{
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+.mail h4{
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+.location h4{
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.menulinksul{
+    display: flex;
+}
+
+.menulinksul li{
+    list-style: none;
+    padding-top: 10px;
+    
+}
+.dropdown{
+    display: none;
+}
+
+.menulinksul li a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 17px;
+    color: #666666;
+}
+.menulinksul li a:hover{
+    background-color: #f7f3f3;
+
+}
+
+
+.btn{
+    padding: 7px 12px;
+    border: 1px solid #035d91;
+    background-color: #00A4EF;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+
+.banner{
+    text-align: center;
+    text-shadow: 0px 1px 1px #333333;
+    padding: 250px;
+    background: url(./img/10trucks.jpg ) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 15px;
+}
+.banner h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.banner p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.flex{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -80px;
+}
+.flex >div{
+    margin: 0px 10px ;
+}
+.box1{
+    background-color: #088EDD;
+    color: #fff;
+    padding: 20px 10px;
+}
+.box1 p{
+    font-size: 13px;
+}
+.box1 h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.t1 h2{
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 28px;
+    margin: 30px;
+}
+
+.grid{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.grid1 h3{
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    color: #333333;
+}
+
+.grid1 p{
+    font-size: 14px;
+    color: #333333;
+}
+.banner2{
+    margin-top: 50px;
+    padding: 170px 0px;
+    background: url(./img/red.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.t2 {
+    text-align: center;
+    font-family: inherit;
+    line-height: 1.1;
+    font-weight: 500;
+    color: #fff;
+    font-size: 28px;
+}
+
+
+.t3{
+    padding: 20px;
+    color: #fff;
+}
+
+
+.aside{
+    padding: 150px;
+    background-color: #3a3a3a;
+   
+  
+}
+@media only screen and (max-width: 750px){
+
+}
+
+
