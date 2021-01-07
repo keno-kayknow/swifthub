@@ -6,6 +6,10 @@
        
     }
 
+    .header{
+        display: none;
+    }
+
     .container-wrap{
         overflow: hidden;
         
